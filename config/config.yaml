@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: Data/Image Kidney Dataset.zip
+  local_data_file: artifacts/data_ingestion/Image Kidney Dataset.zip
+  unzip_dir: artifacts/data_ingestion

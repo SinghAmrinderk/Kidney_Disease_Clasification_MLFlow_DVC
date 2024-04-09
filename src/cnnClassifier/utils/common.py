@@ -49,5 +49,5 @@ def create_directories(path_to_directories: list, verbose = True):
     """
     for path in path_to_directories:
         os.makedirs(path, exist_ok=True)  ## When exist_ok is set to True, makedirs() will not raise an error if the directory already exists; 
-        if verbose:                       ##it will simply return without doing anything. If exist_ok is False (the default), makedirs() will raise a FileExistsError if the directory already exists.
+        if verbose:                       ## it will simply return without doing anything. If exist_ok is False (the default), makedirs() will raise a FileExistsError if the directory already exists.
             logger.info(f"Created directory at: {path}")
